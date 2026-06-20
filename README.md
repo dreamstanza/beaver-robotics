@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Beaver Robotics Website
+
+English-first company website for Beaver Robotics — a spatial intelligence company building persistent 4D world models and mobility intelligence for robots in the real world.
+
+## Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **Animations:** Framer Motion
+- **Deployment:** Vercel-ready (static site generation)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Install & Run Locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+/src
+  /app
+    /page.tsx                 # Homepage
+    /spatial-memory/page.tsx  # Spatial Memory page
+    /mobility-brain/page.tsx  # Mobility Brain page
+    /robot-forms/page.tsx     # Robot Forms page
+    /applications/page.tsx    # Applications page
+    /company/page.tsx         # Company page
+    /contact/page.tsx         # Contact page
+    /layout.tsx               # Root layout with Header/Footer
+    /globals.css              # Global styles & Tailwind config
+    /sitemap.ts               # Dynamic sitemap
+    /robots.ts                # Robots.txt
+  /components
+    Header.tsx                # Sticky header with mobile menu
+    Footer.tsx                # Footer with navigation
+    Section.tsx               # Reusable section wrapper
+    Card.tsx                  # Reusable card component
+    CTA.tsx                   # Call-to-action section
+    Flywheel.tsx              # Data flywheel animation
+    WorldModelVisual.tsx      # 3D cube spatial visual
+    ArchitectureDiagram.tsx   # Three-layer architecture
+  /public
+    logo.png                  # Beaver Robotics logo
+    robot-product.png         # Product robot image
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## How to Update Copy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Page content is defined directly in each page file under `/src/app/`. To update text:
 
-## Deploy on Vercel
+1. Open the relevant page file (e.g., `src/app/page.tsx` for homepage)
+2. Edit the text content within the JSX
+3. Run `npm run dev` to preview changes
+4. Commit and push to trigger Vercel deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Vercel (Recommended)
+
+1. Push this repository to GitHub
+2. Import the repository in Vercel
+3. Deploy — Vercel will auto-detect Next.js settings
+4. Connect custom domain `www.beaver-robotics.com` in Vercel dashboard
+
+### Domain Setup
+
+After deploying to Vercel:
+1. Go to Project Settings → Domains
+2. Add `beaver-robotics.com` and `www.beaver-robotics.com`
+3. Update DNS records as instructed by Vercel
+
+## Assets Needed from Team
+
+- [ ] Open Graph image (1200x630px recommended) — currently using logo as placeholder
+- [ ] Favicon (32x32px and 16x16px PNG) — currently using logo
+- [ ] Any additional product photos or environment images
+- [ ] Team photos (if Company page is expanded later)
+
+## Contact
+
+All CTA buttons link to: `mailto:contact@beaver-robotics.com`
