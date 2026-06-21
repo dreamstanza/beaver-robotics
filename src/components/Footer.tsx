@@ -18,13 +18,18 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Logo & Positioning */}
           <div className="col-span-1">
-            <Image
-              src="/logo-full.png"
-              alt="Beaver Robotics"
-              width={180}
-              height={40}
-              className="h-10 w-auto brightness-0 invert opacity-90"
-            />
+            <div className="flex items-center gap-2.5">
+              <Image
+                src="/logo-icon.png"
+                alt="Beaver Robotics"
+                width={80}
+                height={38}
+                className="h-8 w-auto brightness-0 invert opacity-90"
+              />
+              <span className="text-[14px] font-bold tracking-wide text-white/90">
+                BEAVER ROBOTICS
+              </span>
+            </div>
             <p className="mt-5 text-sm text-white/50 leading-relaxed max-w-xs">
               Spatial memory and mobility intelligence for robots in the real world.
             </p>

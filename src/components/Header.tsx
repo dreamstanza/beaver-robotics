@@ -36,16 +36,23 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-18">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center gap-2.5">
             <Image
-              src="/logo-full.png"
+              src="/logo-icon.png"
               alt="Beaver Robotics"
-              width={160}
-              height={36}
-              className={`h-9 w-auto transition-all duration-300 ${
+              width={80}
+              height={38}
+              className={`h-7 w-auto transition-all duration-300 ${
                 scrolled ? "" : "brightness-0 invert"
               }`}
             />
+            <span
+              className={`text-[13px] font-bold tracking-wide transition-colors duration-300 ${
+                scrolled ? "text-dark-text" : "text-white"
+              }`}
+            >
+              BEAVER ROBOTICS
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
