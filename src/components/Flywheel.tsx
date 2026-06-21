@@ -14,15 +14,15 @@ const steps = [
 
 export default function Flywheel() {
   const [activeNode, setActiveNode] = useState<number | null>(null);
-  const cx = 220;
+  const cx = 300;
   const cy = 220;
-  const r = 150;
+  const r = 140;
 
   return (
-    <div className="relative w-full max-w-[480px] mx-auto">
+    <div className="relative w-full max-w-[600px] mx-auto">
       {/* Desktop: circular orbit */}
       <div className="hidden sm:block">
-        <svg viewBox="0 0 440 440" className="w-full h-auto">
+        <svg viewBox="0 0 600 440" className="w-full h-auto">
           {/* Orbit ring */}
           <circle cx={cx} cy={cy} r={r} fill="none" stroke="rgba(21,92,255,0.12)" strokeWidth="1.5" />
 
@@ -40,10 +40,10 @@ export default function Flywheel() {
           />
 
           {/* Center label */}
-          <text x={cx} y={cy - 8} textAnchor="middle" fill="white" fontSize="14" fontWeight="700" fontFamily="Inter">
+          <text x={cx} y={cy - 10} textAnchor="middle" fill="white" fontSize="18" fontWeight="700" fontFamily="Inter">
             4D
           </text>
-          <text x={cx} y={cy + 10} textAnchor="middle" fill="rgba(255,255,255,0.6)" fontSize="11" fontWeight="500" fontFamily="Inter">
+          <text x={cx} y={cy + 12} textAnchor="middle" fill="rgba(255,255,255,0.6)" fontSize="13" fontWeight="500" fontFamily="Inter">
             Memory
           </text>
 
@@ -53,8 +53,9 @@ export default function Flywheel() {
             const nx = cx + r * Math.cos(angle);
             const ny = cy + r * Math.sin(angle);
             const isActive = activeNode === i;
-            const labelOffsetX = nx > cx ? 28 : -28;
-            const textAnchor = nx > cx ? "start" : "end";
+            const isRight = nx >= cx;
+            const labelOffsetX = isRight ? 26 : -26;
+            const textAnchor = isRight ? "start" : "end";
 
             return (
               <motion.g
@@ -97,7 +98,7 @@ export default function Flywheel() {
                   textAnchor={textAnchor}
                   dominantBaseline="middle"
                   fill={isActive ? "white" : "rgba(255,255,255,0.7)"}
-                  fontSize="11"
+                  fontSize="12"
                   fontWeight="500"
                   fontFamily="Inter"
                 >
@@ -108,7 +109,7 @@ export default function Flywheel() {
                 {isActive && (
                   <text
                     x={nx + labelOffsetX}
-                    y={ny + 14}
+                    y={ny + 15}
                     textAnchor={textAnchor}
                     fill="rgba(255,255,255,0.45)"
                     fontSize="9"
