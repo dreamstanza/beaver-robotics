@@ -19,11 +19,11 @@ export default function Footer() {
           {/* Logo & Positioning */}
           <div className="col-span-1">
             <Image
-              src="/logo.png"
+              src="/logo-full.png"
               alt="Beaver Robotics"
-              width={140}
-              height={36}
-              className="h-9 w-auto brightness-0 invert opacity-90"
+              width={180}
+              height={40}
+              className="h-10 w-auto brightness-0 invert opacity-90"
             />
             <p className="mt-5 text-sm text-white/50 leading-relaxed max-w-xs">
               Spatial memory and mobility intelligence for robots in the real world.
