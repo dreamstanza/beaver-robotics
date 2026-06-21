@@ -20,11 +20,11 @@ export default function Footer() {
           <div className="col-span-1">
             <div className="flex items-center gap-2.5">
               <Image
-                src="/logo-icon.png"
+                src="/logo-mark.png"
                 alt="Beaver Robotics"
-                width={80}
-                height={38}
-                className="h-8 w-auto brightness-0 invert opacity-90"
+                width={90}
+                height={50}
+                className="h-9 w-auto brightness-0 invert opacity-90"
               />
               <span className="text-[14px] font-bold tracking-wide text-white/90">
                 BEAVER ROBOTICS

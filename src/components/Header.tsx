@@ -38,11 +38,11 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5">
             <Image
-              src="/logo-icon.png"
+              src="/logo-mark.png"
               alt="Beaver Robotics"
-              width={80}
-              height={38}
-              className={`h-7 w-auto transition-all duration-300 ${
+              width={90}
+              height={50}
+              className={`h-9 w-auto transition-all duration-300 ${
                 scrolled ? "" : "brightness-0 invert"
               }`}
             />

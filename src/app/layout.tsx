@@ -48,7 +48,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.className}>
-      <link rel="icon" href="/logo-icon.png" type="image/png" />
+      <link rel="icon" href="/logo-mark.png" type="image/png" />
       <body className="min-h-screen flex flex-col bg-off-white">
         <Header />
         <main className="flex-1">{children}</main>
