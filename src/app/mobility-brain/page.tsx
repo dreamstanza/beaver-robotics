@@ -179,7 +179,7 @@ export default function MobilityBrainPage() {
 
       <CTA
         headline="Build the spatial intelligence layer for real-world robots with us."
-        body="We are looking for deployment partners, hardware partners, research collaborators, and investors who believe robots need spatial memory to enter the real world."
+        body="We are looking for deployment partners, hardware partners, research collaborators, and investors who believe robots need spatial intelligence to enter the real world."
         primaryText="Contact Us"
         primaryHref="mailto:contact@beaver-robotics.com"
         secondaryText="Partner With Beaver Robotics"

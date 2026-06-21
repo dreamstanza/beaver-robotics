@@ -10,14 +10,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Beaver Robotics | Spatial Memory for Robots in the Real World",
+  title: "Beaver Robotics | Spatial Intelligence for Robots in the Real World",
   description:
     "Beaver Robotics builds persistent 4D world models and mobility intelligence systems that help robots understand, remember, and move through complex real-world environments.",
   keywords: [
     "Beaver Robotics",
-    "spatial memory",
-    "4D world model",
     "spatial intelligence",
+    "4D world model",
+    "spatial memory",
     "robot mobility",
     "mobility brain",
     "embodied AI",
@@ -29,10 +29,10 @@ export const metadata: Metadata = {
     "mobile robots",
     "last-100-meter logistics",
     "persistent world model",
-    "robot memory",
+    "robot intelligence",
   ],
   openGraph: {
-    title: "Beaver Robotics | Spatial Memory for Real-World Robots",
+    title: "Beaver Robotics | Spatial Intelligence for Real-World Robots",
     description:
       "Persistent 4D world models and mobility intelligence for robots entering the real world.",
     type: "website",

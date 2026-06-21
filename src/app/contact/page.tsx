@@ -19,7 +19,7 @@ export default function ContactPage() {
             Contact Beaver Robotics
           </h1>
           <p className="text-lg text-white/60 leading-relaxed max-w-3xl mx-auto">
-            We are looking for deployment partners, hardware partners, research collaborators, investors, and builders who believe robots need spatial memory to enter the real world.
+            We are looking for deployment partners, hardware partners, research collaborators, investors, and builders who believe robots need spatial intelligence to enter the real world.
           </p>
         </div>
       </section>
@@ -66,7 +66,7 @@ export default function ContactPage() {
               },
               {
                 title: "You are a research collaborator",
-                desc: "You work on spatial memory, world models, robot mobility, embodied AI, or related fields and want to collaborate on real-world applications.",
+                desc: "You work on spatial intelligence, world models, robot mobility, embodied AI, or related fields and want to collaborate on real-world applications.",
               },
               {
                 title: "You are an investor",

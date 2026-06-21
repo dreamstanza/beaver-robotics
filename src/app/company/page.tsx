@@ -40,7 +40,7 @@ export default function CompanyPage() {
               To operate in these spaces, robots need more than sensors and algorithms. They need memory — persistent, evolving, accumulated understanding of the world they operate in.
             </p>
             <p className="font-medium text-dark-text">
-              Beaver Robotics is building that foundation: spatial memory and 4D world models that help robots remember, understand, and move through the real world.
+              Beaver Robotics is building that foundation: spatial intelligence and 4D world models that help robots remember, understand, and move through the real world.
             </p>
           </div>
         </div>
@@ -77,8 +77,8 @@ export default function CompanyPage() {
           <div className="space-y-8">
             {[
               {
-                title: "Spatial Memory First",
-                desc: "We believe long-term world memory is a foundation for physical AI. Just as language models are a foundation for reasoning, spatial memory is a foundation for acting in the physical world.",
+                title: "Spatial Intelligence First",
+                desc: "We believe long-term world memory is a foundation for physical AI. Just as language models are a foundation for reasoning, spatial intelligence is a foundation for acting in the physical world.",
               },
               {
                 title: "Mobility as the First Product",
@@ -136,7 +136,7 @@ export default function CompanyPage() {
 
       <CTA
         headline="Build the spatial intelligence layer for real-world robots with us."
-        body="We are looking for deployment partners, hardware partners, research collaborators, investors, and builders who believe robots need spatial memory to enter the real world."
+        body="We are looking for deployment partners, hardware partners, research collaborators, investors, and builders who believe robots need spatial intelligence to enter the real world."
         primaryText="Contact Us"
         primaryHref="mailto:contact@beaver-robotics.com"
         secondaryText="Partner With Beaver Robotics"

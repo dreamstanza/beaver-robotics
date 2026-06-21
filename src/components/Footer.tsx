@@ -31,7 +31,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="mt-5 text-sm text-white/50 leading-relaxed max-w-xs">
-              Spatial memory and mobility intelligence for robots in the real world.
+              Spatial intelligence and mobility intelligence for robots in the real world.
             </p>
           </div>
 

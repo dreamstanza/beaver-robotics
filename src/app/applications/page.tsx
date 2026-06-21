@@ -5,7 +5,7 @@ import CTA from "@/components/CTA";
 export const metadata: Metadata = {
   title: "Applications | Beaver Robotics",
   description:
-    "Real-world applications for Beaver Robotics spatial memory and mobility intelligence: logistics, campus mobility, residential communities, and more.",
+    "Real-world applications for Beaver Robotics spatial intelligence and mobility intelligence: logistics, campus mobility, residential communities, and more.",
 };
 
 const applications = [

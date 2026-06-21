@@ -108,7 +108,7 @@ export default function SpatialMemoryPage() {
       </Section>
 
       <CTA
-        headline="Explore how spatial memory powers the Mobility Brain."
+        headline="Explore how spatial intelligence powers the Mobility Brain."
         primaryText="See the Mobility Brain"
         primaryHref="/mobility-brain"
         secondaryText="Partner With Us"

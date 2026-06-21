@@ -30,7 +30,7 @@ export default function Home() {
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
               <h1 className="text-[clamp(2.5rem,5vw,4.5rem)] font-extrabold text-white leading-[1.1] tracking-tight">
-                Spatial Memory for Robots in the Real World
+                Spatial Intelligence for Robots in the Real World
               </h1>
               <p className="mt-6 text-lg text-white/60 leading-relaxed max-w-lg">
                 Beaver Robotics builds persistent 4D world models that help robots understand, remember, and move through complex human environments.
@@ -365,7 +365,7 @@ export default function Home() {
             {...fadeUp}
             className="mt-14 text-center text-white/40 italic"
           >
-            Spatial memory turns deployment into intelligence.
+            Spatial intelligence turns deployment into intelligence.
           </motion.p>
         </div>
       </section>
@@ -418,7 +418,7 @@ export default function Home() {
               Build the spatial intelligence layer for real-world robots with us.
             </h2>
             <p className="mt-6 text-white/55 leading-relaxed text-lg">
-              We are looking for deployment partners, hardware partners, research collaborators, investors, and builders who believe robots need spatial memory to enter the real world.
+              We are looking for deployment partners, hardware partners, research collaborators, investors, and builders who believe robots need spatial intelligence to enter the real world.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
